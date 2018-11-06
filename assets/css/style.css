@@ -132,7 +132,25 @@ a.form-subtitle {
 }
 
 .request-sample li {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 20px;
-  min-height: 35px;
 }
+
+.request-sample input.half-width {
+  width: 21.5%;
+  margin-right: 15px;
+  padding: 20px;
+}
+
+.request-sample input.full-width {
+  width: 50%;
+  margin-right: 15px;
+  padding: 20px;
+}
+
+.request-sample input:last-child {
+  margin-right: 0;
+}
+
+/*450 / 215*/
