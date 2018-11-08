@@ -28,6 +28,12 @@ p {
   color: #5a5555;
 }
 
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+/* first section */
 header {
   background-color: #ffffff;
   border-bottom: 4px solid #008375;;
@@ -51,11 +57,18 @@ header {
   margin: 0 auto;
   padding-top: 40px;
 }
+/* end first section */
+
+/* section about company */
+.what-means-our-company {
+  background-color: #ffffff;
+}
 
 .what-means-our-company .container {
   max-width: 1110px;
   width: 100%;
-  margin: 50px auto;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
 .what-means-our-company h2 {
@@ -65,4 +78,179 @@ header {
 .what-means-our-company p {
   margin: 0;
 }
+/* end section about company */
 
+/* section form */
+.request-sample {
+  background-color: #008375;
+}
+
+.request-sample .container {
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.form-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.request-sample h2 {
+  color: #a7dbd3;
+  margin: 0;
+  padding: 0;
+}
+
+a.form-subtitle {
+  color: #a7dbd3;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.request-sample p {
+  color: #f1f1f1;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 40px 0 0;
+}
+
+.request-sample form {
+  max-width: 920px;
+  width: 100%;
+  margin: 25px 0 0;
+}
+
+.request-sample ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+
+.request-sample li {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.request-sample li:last-child {
+  margin-bottom: 0;
+}
+
+.request-sample input {
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.request-sample ::placeholder {
+  color: #76b9b2;
+}
+
+.request-sample :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #76b9b2;
+}
+
+.request-sample ::-ms-input-placeholder { /* Microsoft Edge */
+  color: #76b9b2;
+}
+
+.request-sample input[type=text] {
+  background-color: #e3f3ef;
+  color: #76b9b2;
+  padding: 15px 20px;
+}
+
+.request-sample input.half-width {
+  max-width: 175px;
+  width: 100%;
+  margin-right: 15px;
+}
+
+.request-sample input.full-width {
+  max-width: 410px;
+  width: 100%;
+  margin-right: 15px;
+}
+
+.request-sample input:last-child {
+  margin-right: 0;
+}
+
+.request-sample input[type=submit] {
+  background-color: #68c2b6;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0;
+  padding: 20px 30px;
+}
+
+li.bottom-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+/* end section form */
+.company-slogan {
+  background-color: #a7dbd3;
+}
+
+.company-slogan .container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 80px 0 40px 0;
+}
+
+.company-slogan h3 {
+  color: #575756;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 23px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.company-slogan h2 {
+  color: #575756;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.company-slogan-image {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-slogan-image img {
+  margin: -15px 0 -20px 0;
+}
+
+.order-button {
+  margin-top: 60px;
+}
+
+.order-button a{
+  color: #ffffff;
+  background-color: #007f6c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+/* section company slogan */
