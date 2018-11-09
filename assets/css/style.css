@@ -190,6 +190,7 @@ a.form-subtitle {
   line-height: 33px;
   letter-spacing: 0;
   padding: 20px 30px;
+  cursor: pointer;
 }
 
 li.bottom-form {
