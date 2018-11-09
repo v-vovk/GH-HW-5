@@ -198,6 +198,8 @@ li.bottom-form {
   justify-content: space-between;
 }
 /* end section form */
+
+/* section company slogan */
 .company-slogan {
   background-color: #a7dbd3;
 }
@@ -217,6 +219,15 @@ li.bottom-form {
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
+}
+
+.company-slogan h3.left-item {
+  margin-left: 80px;
+}
+
+.company-slogan h3.right-item {
+  text-align: right;
+  margin-right: 8px;
 }
 
 .company-slogan h2 {
@@ -302,3 +313,29 @@ li.bottom-form {
   font-weight: 700;
   text-decoration: underline;
 }
+/* end section download */
+
+/* footer */
+footer {
+  background-color: #515151;
+}
+
+footer .container {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0 30px;
+}
+
+footer p {
+  margin: 0;
+  color: #eef1f1;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+footer p.top-paragraph {
+  margin-bottom: 30px;
+}
+/* end footer */
